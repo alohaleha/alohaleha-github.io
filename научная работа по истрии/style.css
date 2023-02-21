@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://i.mycdn.me/i?r=AyH4iRPQ2q0otWIFepML2LxRiMueVIMeYuqDCS67oNMeIg");
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.admin {
+    background-image: url("https://avatars.mds.yandex.net/i?id=68dc901cbf3f039e049a4d221b285e3b305b4bb0-8357156-images-thumbs&n=13");
+}
+
+.top {
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.main__label {
+    font-size: 150px;
+    color: rgb(241, 198, 129);
+    z-index: 1;
+    padding-top: 100px;
+    position: absolute;
+}
+
+.main__label_2 {
+    font-size: 100px;
+    color: rgb(241, 198, 129);
+    z-index: 1;
+    padding-top: 100px;
+    position: absolute;
+}
+
+.color-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.color-overlay-2 {
+    width: 100%;
+    height: 461px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+}
+
+.content {
+    padding: 50px 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+video {
+    width: 60%;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text {
+    min-height: 100vh;
+    background-color: rgb(241, 198, 129);
+    padding-bottom: 20px;
+}
+
+.text-2 {
+    max-height: 100vh;
+    background-color: rgb(241, 198, 129);
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    z-index: 2;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(125, 122, 122);
+    position: fixed;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 50px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(241, 198, 129);
+    font-size: 20px;
+    font-style: oblique;
+    transition: all .07s ease-in-out;
+}
+
+.menu li a:hover {
+    color: rgb(151, 3, 3);
+}
+
+.menu li a:active {
+    color: green;
+}
+
+.admin__building {
+    font-size: 100px;
+    color: rgb(241, 198, 129);
+    z-index: 1;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back__home {
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(241, 198, 129);
+}
+
+.back__home:hover {
+    color: rgb(151, 3, 3);
+    transition: all .07s ease-in-out;
+}
+
+.back__home:active {
+    color: green;
+}
+
+.picrures {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    object-position: center;
+}
+
+.picrures__nav {
+    position: absolute;
+}
+
+.picrures__menu a {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    line-height: 3;
+    color: white;
+    text-align: center;
+    outline: none;
+    border: 2px solid red;
+    padding: 30px;
+    font-size: large;
+    width: 380px;
+    height: 200px;
+    margin: 20px;
+}
+
+.picrures__menu ul {
+    padding: 0;
+    width: 100%;
+}
+
+.picrures__menu li {
+    display: inline;
+    margin: 20px;
+}
+
+.picrures__menu li a:hover {
+    filter: brightness(1.2);
+    transform: scale(1.10);
+}
+
+.picrures__menu li a:active {
+    filter: sepia(0.5);
+}
+
+.railway__station {
+    background-image: url("https://glubinka.by/wp-content/uploads/2020/08/mini-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.water__tower {
+    background-image: url("https://orda.of.by/.ga/s/slonim/watertower/nf/slonim_(vokzal_zheleznodorozhnyj)_4_bashnya_vodonapornaya.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bank {
+    background-image: url("https://thumbs.dreamstime.com/b/%D1%84%D0%B0%D1%81%D0%B0%D0%B4-%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%B3%D0%BE-%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0-%D0%B2-%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%BC-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BA%D0%B5-slonim-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8-grodno-%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D0%B8-122057585.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fire__department {
+    background-image: url("https://mchs.gov.by/upload/medialibrary/5ba/zdanie-rayotdela.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.maypole {
+    background-image: url("kalancha.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hotel {
+    background-image: url("http://hotelshchara.by/d/gostinica.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shopping__malls {
+    background-image: url("https://orda.of.by/.ga/s/slonim/index/sf/.big/mostovaya2528xz2529-torgovaya2528pervomayskaya2529.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-2 {
+    padding: 0 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60vh 100vh;
+    grid-template-areas: 
+    "img-1 img-2"
+    "txt txt";
+}
+
+.grid__img__1 {
+    grid-area: img-1;
+}
+
+.grid__img__2 {
+    grid-area: img-2;
+}
+
+.grid__text {
+    grid-area: txt;
+}
+
+#bg_bank_1 {
+    background-image: url("https://thumbs.dreamstime.com/b/%D1%84%D0%B0%D1%81%D0%B0%D0%B4-%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%B3%D0%BE-%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0-%D0%B2-%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%BC-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BA%D0%B5-slonim-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8-grodno-%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D0%B8-122057585.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_bank_2 {
+    background-image: url("http://itd2.mycdn.me/image?id=913429665686&t=20&plc=MOBILE&tkn=*YPQS9iVOmebafDHHSGdpj5LX47U");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_station_1 {
+    background-image: url("https://glubinka.by/wp-content/uploads/2020/08/mini-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_station_2 {
+    background-image: url("https://avatars.mds.yandex.net/i?id=2a0000017a0534518900f49f255e885bd951-4569268-images-thumbs&n=13");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_water_tower_1 {
+    background-image: url("https://orda.of.by/.ga/s/slonim/watertower/nf/slonim_(vokzal_zheleznodorozhnyj)_4_bashnya_vodonapornaya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_water_tower_2 {
+    background-image: url("https://railwayz.info/photolines/images/61/1334067247.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_fire_1 {
+    background-image: url("https://mchs.gov.by/upload/medialibrary/5ba/zdanie-rayotdela.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_fire_2 {
+    background-image: url("http://oldgrodno.by/main.php?g2_view=core.DownloadItem&g2_itemId=74462&g2_serialNumber=3");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_maypole_1 {
+    background-image: url("kalancha.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_maypole_2 {
+    background-image: url("https://img.newgrodno.by/wp-content/uploads/2019/06/bashnya-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_hotel_1 {
+    background-image: url("http://hotelshchara.by/d/gostinica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_hotel_2 {
+    background-image: url("http://www.slonim.org/modules/4images/data/media/1/DSC02945.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_malls_1 {
+    background-image: url("https://avatars.mds.yandex.net/i?id=58bd1d726d1f2452ec6a6b98fe05b066056adf24-7551603-images-thumbs&n=13");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_malls_2 {
+    background-image: url("https://orda.of.by/.ga/s/slonim/index/sf/.big/mostovaya2528xz2529-torgovaya2528pervomayskaya2529.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content__map {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.local_house {
+	background-image: url("https://glubinka.by/wp-content/uploads/2020/08/img_20200619_102017-78.jpg");
+}
+
+.houses {
+	background-image: url("https://www.yandextaxi-belarus.by/wp-content/uploads/2020/12/%D1%81%D0%BB%D0%BE%D0%BD%D0%B8%D0%BC-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#bg_house_1 {
+	background-image: url("https://photobuildings.com/photo/00/53/81/53817.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_house_2 {
+	background-image: url("https://img-fotki.yandex.ru/get/4807/varandej1.104/0_63cf0_ee6ddc3d_XL");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pharmacy {
+    background-image: url("https://photobuildings.com/photo/00/54/66/54661.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_pharmacy_1 {
+    background-image: url("https://photobuildings.com/photo/00/54/66/54661.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_pharmacy_2 {
+    background-image: url("https://sun9-20.userapi.com/impg/9f4FNNSYEbnDZI8E5k9oQvEZ2ftukyQkWZOq7Q/HMOA38TXrZg.jpg?size=604x594&quality=96&sign=b7c7184746e6563ff09c94379c50cbbf&type=album");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.official_houses {
+    background-image: url("https://sun9-83.userapi.com/c633429/v633429758/2856f/bVLeJ468Hac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_official_1 {
+    background-image: url("https://sun9-83.userapi.com/c633429/v633429758/2856f/bVLeJ468Hac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_official_2 {
+    background-image: url("https://slonim.i-r.by/content/c/1-1-1/visitor/images/201204/14/f20120414181223-kv-ra-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hshop {
+    background-image: url("https://photobuildings.com/photo/00/53/81/53814.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_hshop_1 {
+    background-image: url("https://photobuildings.com/photo/00/53/81/53814.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_hshop_2 {
+    background-image: url("https://photobuildings.com/photo/00/54/78/54782.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mansions {
+    background-image: url("http://szcge.by/wp-content/uploads/2022/11/slonim-belarus4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mansions__1 {
+    background-image: url("https://culttourism.ru/data/photos/6/c/6cbaea5fde32862797c390bfde990641.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mansions1_1 {
+    background-image: url("https://culttourism.ru/data/photos/6/c/6cbaea5fde32862797c390bfde990641.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mansions1_2 {
+    background-image: url("https://globustut.by/slonim/osob_komsom1691_d298.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mansions__2 {
+    background-image: url("https://planetabelarus.by/upload/resize_cache/iblock/e28/1330_886_18e21fe612b4afb807a26ecc22279a1d9/e28568f41e8f2aec0e6d803559d06857.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mansions2_1 {
+    background-image: url("https://poshyk.info/wp-content/uploads/2018/06/albertin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mansions2_2 {
+    background-image: url("https://farm4.staticflickr.com/3774/9683554103_a0caaf1da9_o.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mansions__3 {
+    background-image: url("https://photos.wikimapia.org/p/00/02/91/07/14_full.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mansions3_1 {
+    background-image: url("https://photos.wikimapia.org/p/00/02/91/07/14_full.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mansions3_2 {
+    background-image: url("https://pbs.twimg.com/media/EsurSUyXYAAkCG-.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mansions__4 {
+    background-image: url("https://turby.by/images/Stat_new1/Screenshot_228.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mansions4_1 {
+    background-image: url("https://turby.by/images/Stat_new1/Screenshot_228.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mansions4_2 {
+    background-image: url("https://collections.ushmm.org/iiif-b/assets/733794");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mansions__5 {
+    background-image: url("https://shtetlroutes.eu/cache/dlibra/image/87/87460/1280x1024/");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mansions5_1 {
+    background-image: url("https://shtetlroutes.eu/cache/dlibra/image/87/87460/1280x1024/");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mansions5_2 {
+    background-image: url("http://photocdn.photogoroda.com/source2/cn248/r330/c346/73920018.jpg?v=20171213112136");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.religious {
+    background-image: url("https://c1.staticflickr.com/4/3831/33416861385_979e2a49b0_o.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spas_sabor {
+    background-image: url("https://planetabelarus.by/upload/iblock/246/246294999c8b8c161b8c7d352746b31a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_spas_1 {
+    background-image: url("https://planetabelarus.by/upload/resize_cache/iblock/073/1330_747_18e21fe612b4afb807a26ecc22279a1d9/0734d81935285017424476069439ff69.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_spas_2 {
+    background-image: url("https://culttourism.ru/data/photos/1/1/11ad5fb04d3802ea0f4f5b938a8f1dcf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.synagogue {
+    background-image: url("https://planetabelarus.by/upload/medialibrary/450/4506f8135056250c3e8f9dfaaa32d237.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_synagogue_1 {
+    background-image: url("https://planetabelarus.by/upload/medialibrary/d52/d52f9ed56df7c9fbd8d3ae957e932dc3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_synagogue_2 {
+    background-image: url("https://pbs.twimg.com/media/DVb9dl7X4AAksVx?format=jpg&name=medium");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mosque {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/S%C5%82onim%2C_Tatarski._%D0%A1%D0%BB%D0%BE%D0%BD%D1%96%D0%BC%2C_%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D0%BA%D1%96_%28J._Bu%C5%82hak%2C_1937%29.jpg/1200px-S%C5%82onim%2C_Tatarski._%D0%A1%D0%BB%D0%BE%D0%BD%D1%96%D0%BC%2C_%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D0%BA%D1%96_%28J._Bu%C5%82hak%2C_1937%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mosque_1 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/S%C5%82onim%2C_Tatarski._%D0%A1%D0%BB%D0%BE%D0%BD%D1%96%D0%BC%2C_%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D0%BA%D1%96_%28J._Bu%C5%82hak%2C_1937%29.jpg/1200px-S%C5%82onim%2C_Tatarski._%D0%A1%D0%BB%D0%BE%D0%BD%D1%96%D0%BC%2C_%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D0%BA%D1%96_%28J._Bu%C5%82hak%2C_1937%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_mosque_2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/ee/S%C5%82onim%2C_Tatarski._%D0%A1%D0%BB%D0%BE%D0%BD%D1%96%D0%BC%2C_%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D0%BA%D1%96_%281916%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.church {
+    background-image: url("church.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_church_1 {
+    background-image: url("church.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg_church_2 {
+    background-image: url("http://www.fotobel.by/images/slonim/albertin-kostel_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
